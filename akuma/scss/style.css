@@ -1,0 +1,74 @@
+html * {
+  font-family: "Heebo" !important;
+}
+
+.btn-primary {
+  background-color: rgb(255, 136, 0) !important;
+  border: none !important;
+  color: white !important;
+}
+.btn-primary:hover {
+  background-color: rgb(255, 187, 0) !important;
+}
+.btn-outline-primary {
+  color: white !important;
+  border: 0.13rem solid rgb(255, 123, 0) !important;
+}
+.btn-outline-primary:hover {
+  border: 0.13rem solid rgb(255, 187, 0) !important;
+  background-color: rgb(255, 187, 0) !important;
+}
+
+.navbar {
+  border: none !important;
+  background-color: black !important;
+  box-shadow: 0 0 0.5rem rgb(68, 68, 68);
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.2rem !important;
+}
+
+img {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgb(68, 68, 68);
+}
+
+.align-v {
+  justify-content: center;
+  align-items: center !important;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 123, 0);
+}
+.link:hover {
+  color: rgb(255, 187, 0);
+}
+
+.logo {
+  color: rgb(255, 187, 0) !important;
+}
+
+.separator {
+  display: block;
+  width: 0.2rem;
+  margin: 0 0.4rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 123, 0);
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin: 0 !important;
+  width: 100vw;
+  background-color: black;
+  box-shadow: 0 0 0.5rem rgb(68, 68, 68);
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

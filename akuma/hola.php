@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-2 p-lg-0">
+        <div class="container-fluid">
+          <a class="navbar-brand px-2 logo text-white" href="#">AKUMA TEMPLE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link px-3 my-1 my-lg-0 mx-1 active" href="./index.html">Inicio</a>
+              <div class="separator d-none d-md-block"></div>
+              <a class="nav-link px-3 my-1 my-lg-0 mx-1 btn btn-primary" href="./login.php"><i class="bi bi-person-fill me-1"></i>Iniciar Sesión</a>
+              <a class="nav-link px-3 my-1 my-lg-0 mx-1 btn btn-outline-primary" href="./registro.php"><i class="bi bi-person-plus-fill me-1"></i>Registrarse</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="row my-10 mx-10">
+      <img src="./src/img/des.png">
+      <h2 class="display-3 text-danger">WELCOME TO THE TEMPLE
+        <?php
+        //HACER QUERY CON ID PARA JALAR NOMBRE
+        ?>
+        </h2>
+    </div>
+
+    <footer class="footer p-2 d-flex">
+        <h2 class="h6 text-white">Kaizen Gym</h2>
+        <h2 class="h6 text-white"><i class="bi bi-c-circle-fill"></i>Copyright 2020-2022</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

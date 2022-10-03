@@ -1,0 +1,102 @@
+
+@use 'variables' as m;
+
+//------------------------NAVBAR------------------------//
+
+.btn{
+
+    &-primary{
+        background-color: rgb(255, 136, 0) !important;
+        border: none !important;
+        // font-weight: bold !important;
+        color: white !important;
+    }
+
+    &-primary:hover{
+        background-color: m.$light-orange !important;
+    }
+    
+    &-outline-primary{
+        color: white !important;
+        border: .13rem solid m.$orange !important; 
+    }
+
+    &-outline-primary:hover{
+        border: .13rem solid m.$light-orange !important; 
+        background-color: m.$light-orange !important;
+    }
+}
+
+.navbar{
+    border: none !important;
+    background-color: black !important;
+    box-shadow: m.$sd-black;
+
+    &-nav{
+        margin-left: auto;
+    }
+
+    &-brand{
+        font-weight: bold;
+        font-size: 2.2rem !important;
+    }
+
+}
+
+//------------------------------------------------------//
+//------------------------------------------------------//
+
+
+//----------------------COMPONENTS----------------------//
+
+
+img{
+    border-radius: .5rem;
+    box-shadow: m.$sd-black;
+}
+
+.align-v{
+    justify-content: center;
+    align-items: center !important;
+}
+
+.link{
+    text-decoration: none;
+    color: m.$orange;
+
+    &:hover{
+        color: m.$light-orange;
+    }
+}
+
+.logo{
+    color: m.$light-orange !important;
+}
+
+.separator{
+    display: block;
+    width: .2rem;
+    margin: 0 .4rem;
+    border-radius: .2rem;
+    background-color: m.$orange;
+}
+
+//------------------------------------------------------//
+//------------------------------------------------------//
+
+
+//------------------------FOOTER------------------------//
+
+.footer{
+    position: relative;
+    bottom: 0;
+    margin: 0 !important;
+    width: 100vw;
+    background-color: black;
+    box-shadow: m.$sd-black;
+    flex-direction: column;
+    align-items: center;
+}
+
+//------------------------------------------------------//
+//------------------------------------------------------//
